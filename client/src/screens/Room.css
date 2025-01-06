@@ -1,0 +1,139 @@
+/* General Container Styling */
+.container {
+  background-color: #f3f4f6;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1, h4 {
+  color: #3c3c3c;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+.video-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.video {
+  margin: 10px;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #000;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+button {
+  background-color: #28a745; /* green button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.call-button {
+  background-color: #007bff; /* blue button */
+}
+
+.call-button:hover {
+  background-color: #0056b3;
+}
+
+.end-button {
+  background-color: #dc3545; /* red button */
+}
+
+.end-button:hover {
+  background-color: #c82333;
+}
+
+.stream-button {
+  background-color: #ffc107; /* yellow button */
+}
+
+.stream-button:hover {
+  background-color: #e0a800;
+}
+
+.chat-container {
+  margin-top: 40px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.chat-container h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.messages {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.messages p {
+  padding: 5px;
+  margin: 5px 0;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+}
+
+input {
+  width: 80%;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+button {
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+footer {
+  text-align: center; 
+  margin-top: 50px;
+  color: #777;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
